@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-               git "https://${GIT_TOKEN}@github.com/kiyo11/nkgrounds.git"
+               git 'https://${GIT_TOKEN}@github.com/kiyo11/nkgrounds.git'
             }
         }
         
